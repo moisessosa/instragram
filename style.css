@@ -89,14 +89,35 @@ footer span{
 /*ajustar img interna*/
 .interna{
     position: relative;
-    top: -50%;
+    top: -522px;
     right: -9.6%;
-    height: 41.7%;
+    height: 29  .7%;
+    
+}
+.interna2{
+    position: relative;
+    top: -945px;
+    right: -9.6%;
+    height: 29  .7%;
+    animation: cambio 5s infinite;
+    animation-direction: alternate ;
 }
 /*ajustar footer*/
 footer{
     position: relative;
-    top: -400px;
+    top: -800px;
+}
+.instragram-phone{
+    overflow: hidden;
+}
+/*Animacion de la tela do celular*/
+@keyframes cambio{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity: 0;
+    }
 }
 /*Telas pequenas*/
 @media screen and (max-width:920px) {
